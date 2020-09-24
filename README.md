@@ -9,7 +9,6 @@ After this tutorial, you will be able to understand the basics of Pure Data and 
 - [Installation](#installation)
 - [The Interface](#the-interface)
 - [Building a Simple Sequencer](#building-a-simple-sequencer)
-- [Do it yourself](#do-it-yourself)
 
 ## Introduction
 Pure Data (or Pd) is a real-time visual programming language designed for musicians, visual artists and performers to create software without writing lines of code. Pure Data is commonly used for live music performance, VJing, sound design, 2D/3D graphics processing, composition, audio analysis, interfacing with sensors, and cross-platform app and web development. Pure Data runs on macOS, Windows, Linux, Raspberry Pi, iOS, Android, and web browsers.
@@ -24,7 +23,6 @@ The real advantage of Pure Data is that it works in "real time". This means that
 
 ## Building a Simple Sequencer
 
-## Do it yourself
 
 
 [![Example](Untitled.svg)](#pd-tutorial)
