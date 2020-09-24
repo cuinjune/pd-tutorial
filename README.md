@@ -1,7 +1,7 @@
 # PD Tutorial for beginners
 
 ## Description
-This is a short step-by-step Pure Data tutorial for complete beginners.
+This is a short step-by-step Pure Data tutorial for complete beginners.  
 After this tutorial, you will be able to understand the basics of Pure Data and create a simple musical instrument using it.
 
 ## Table of Contents
