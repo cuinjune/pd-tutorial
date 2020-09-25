@@ -17,14 +17,12 @@ Programming with Pure Data is a unique interaction that is much closer to the ex
 
 The real advantage of Pure Data is that it works in "real time". This means that changes can be made in the program even as it is running, and the user can see or hear the results immediately. This makes it a powerful tool for artists who would like to make sound or video in a live performance situation.
 
-Here are some projects that used Pure Data.
+Here are some examples and projects that used Pure Data.
 
 * [Algorithmic Music](https://youtu.be/I9_3CfRm8GE)
 * [Organelle](https://youtu.be/DkwYAB6EeFE)
 * [Sequencer](https://youtu.be/9Nz0bxwoqQE)
 * [Reactable](https://youtu.be/0h-RhyopUmc)
-* [Music Visualisation](https://youtu.be/U1k44Tr0pu4)
-* [EA Spore](https://youtu.be/dBK-erAJdWs)
 
 ## Installation
 
