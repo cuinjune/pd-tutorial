@@ -19,11 +19,9 @@ The real advantage of Pure Data is that it works in "real time". This means that
 
 Here are some projects that used Pure Data
 
-* [Algorithmic Music](https://youtu.be/I9_3CfRm8GE)
 * [Sequencer](https://youtu.be/9Nz0bxwoqQE)
-* [Music Visualisation](https://youtu.be/U1k44Tr0pu4)
-* [Guitar Pedal](https://youtu.be/DJCoOr4uHD4)
-* [Organelle](https://youtu.be/WcCwB_Xb_L4)
+* [Organelle](https://youtu.be/DkwYAB6EeFE)
+* [Algorithmic Music](https://youtu.be/I9_3CfRm8GE)
 * [Reactable](https://youtu.be/0h-RhyopUmc)
 * [EA Spore](https://youtu.be/dBK-erAJdWs)
 
