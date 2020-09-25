@@ -27,7 +27,7 @@ The real advantage of Pure Data is that it works in "real time". This means that
 
 Pure Data has been used as the basis of a number of projects, as a prototyping language and a sound engine.
 
-<img src="projects.png" width="400"/>
+<img src="introduction4.png" width="400"/>
 
 
 ## Installation
@@ -51,27 +51,27 @@ puredata
 
 If you open Pure Data, you will see a console window that looks like this:
 
-<img src="consolewindow.png" width="500"/>
+<img src="interface1.png" width="500"/>
 
 The console window is mainly used to see information about the patch you are working on, as well as for debugging (correcting errors in your patch). So keep this window in a place where you can find it on your screen.
 
 Under the "File" menu in the console window, select "New" to create a patch:
 
-<img src="interface1.png" width="200"/>
+<img src="interface2.png" width="200"/>
 
 You will see a patch window that looks like this:
 
-<img src="interface2.png" width="500"/>
+<img src="interface3.png" width="500"/>
 
 Under the "Put" menu in the patch window, select "Object" to place an object in your patch.
 
-<img src="interface3.png" width="200"/>
+<img src="interface4.png" width="200"/>
 
 Click on the patch to drop the object in its place. Type "print" inside this object and click again outside the box, you will create the [print] object.
 
-<img src="interface4.png" width="500"/>
-
 <img src="interface5.png" width="500"/>
+
+<img src="interface6.png" width="500"/>
 
 
 ## Building a Simple Sequencer
