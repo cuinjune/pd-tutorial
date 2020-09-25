@@ -75,6 +75,8 @@ Click on the patch to drop the object in its place. Type "print" inside this obj
 
 <img src="interface6.png" width="500"/>
 
+<img src="interface7.png" width="500"/>
+
 
 ## Building a Simple Sequencer
 
