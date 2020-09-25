@@ -39,8 +39,8 @@ Visit https://puredata.info/downloads/pure-data and click one of the download li
 
 If you are using **Windows**, open the downloaded installer file and follow the default instructions.
 
-If you are using **macOS**, unzip the downloaded file and move it to the Applications folder.  
-In case the app doesn't open because of the verification issue, open the app while holding down the Control key.
+If you are using **macOS**, unzip the downloaded file and move it to the **Applications** folder.  
+In case the app doesn't open because of the verification issue, open the app while holding down the **Ctrl** key.
 
 If you are using **Linux**, run the following terminal commands to install and open Pure Data:
 ```
@@ -84,6 +84,9 @@ Click and drag the outlet of **[Hello World(** to the inlet of **[print]** to ma
 
 <img src="interface7.png" width="500"/>
 
+There are types of objects that you can interact with your mouse and a message box is one of them.  
+To make the message box clickable, we need to change out of "**Edit Mode**" and into "**Play Mode**".  
+You can do this by clicking on the "**Edit Mode**" item in the "**Edit**" menu, or by using the shortcut **Ctrl+E**. (**Cmd+E** on macOS)
 
 
 <img src="interface8.png" width="500"/>
