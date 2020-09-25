@@ -1,5 +1,7 @@
 # Pure Data Tutorial for beginners
 
+<img src="logo.png" width="100"/>
+
 ## Description
 This is a short step-by-step Pure Data tutorial for complete beginners.  
 After this tutorial, you will be able to understand the basics of Pure Data and create a simple musical instrument using it.
