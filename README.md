@@ -57,7 +57,7 @@ If you open Pure Data, you will see a console window that looks like this:
 
 The console window is mainly used to see information about the patch you are working on, as well as for debugging (correcting errors in your patch). So keep this window in a place where you can find it on your screen.
 
-Under the "File" menu in the console window, select "New" to create a patch:
+Under the "File" menu in the console window, select "**New**" to create a patch:
 
 <img src="interface2.png" width="200"/>
 
@@ -65,15 +65,23 @@ You will see a patch window that looks like this:
 
 <img src="interface3.png" width="500"/>
 
-Under the "Put" menu in the patch window, select "Object" to place an object in your patch.
+Under the "Put" menu in the patch window, select "**Object**" to place an object box in your patch.
 
 <img src="interface4.png" width="200"/>
 
-Click on the patch to drop the object in its place. Type "print" inside this object and click again outside the box, you will create the [print] object.
+Click on the patch to drop the object box in its place. Type "print" inside the box and click again outside the box, you will create the [print] object.
 
 <img src="interface5.png" width="500"/>
 
+Under the "Put" menu in the patch window, select "**Message**" and type "Hello World!" inside the box.
+
 <img src="interface6.png" width="500"/>
+
+You should notice that both the object and the message boxes have small rectangles at the corners.   
+If these are at the top of the object, they are called "**inlets**", and at the bottom they are called "**outlets**". 
+
+The inlets and outlets are used to receive and send data between objects while they are connected.  
+To make a connection between the two objects, click and drag the outlet of [Hello World!( to the inlet of [print].
 
 <img src="interface7.png" width="500"/>
 
