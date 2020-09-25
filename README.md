@@ -111,11 +111,19 @@ In "**Edit Mode**", clicking on the patch and dragging will select multiple obje
 
 You can edit the selected objects by clicking on one of the items in the "**Edit**" menu or by using the shortcuts.  
 
-<img src="interface11.png" width="200"/>
+<img src="interface11.png" width="190"/>
 
 Try duplicating and deleting the selected objects using the shortcuts.
 
 <img src="interface12.png" width="500"/>
+
+To get help associated with a specific object, you can right-click it then select "**Help**" from the drop-down menu.
+
+<img src="interface13.png" width="500"/>
+
+You will see a help patch that explains what the object does and also show several examples of its use.
+
+<img src="interface14.png" width="500"/>
 
 ## Building a Simple Sequencer
 
