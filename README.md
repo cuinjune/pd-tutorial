@@ -85,6 +85,14 @@ Click and drag the outlet of **[Hello World(** to the inlet of **[print]** to ma
 <img src="interface7.png" width="500"/>
 
 
+
+<img src="interface8.png" width="500"/>
+
+
+
+<img src="interface9.png" width="500"/>
+
+
 ## Building a Simple Sequencer
 
 [![example](Untitled.svg)](#pd-tutorial)
