@@ -22,6 +22,11 @@ Programming with Pure Data is a unique interaction that is much closer to the ex
 
 The real advantage of Pure Data is that it works in "real time". This means that changes can be made in the program even as it is running, and the user can see or hear the results immediately. This makes it a powerful tool for artists who would like to make sound or video in a live performance situation.
 
+Pure Data has been used as the basis of a number of projects, as a prototyping language and a sound engine.
+
+<img src="projects.png" alt="projects" width="500"/>
+
+
 ## Installation
 Visit https://puredata.info/downloads/pure-data and click one of the links depending on your platform to download Pure Data.
 
