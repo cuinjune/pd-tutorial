@@ -9,6 +9,7 @@ After this tutorial, you will be able to understand the basics of Pure Data and 
 - [Installation](#installation)
 - [The Interface](#the-interface)
 - [Building a Simple Sequencer](#building-a-simple-sequencer)
+- [More Tutorials](#more-tutorials)
 
 ## Introduction
 
@@ -50,10 +51,8 @@ puredata
 
 ## Building a Simple Sequencer
 
-
-
 [![example](Untitled.svg)](#pd-tutorial)
 
+## More Tutorials
 
 
-See the image above!
