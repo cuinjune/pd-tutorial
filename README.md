@@ -88,10 +88,12 @@ There are types of objects that you can interact with your mouse. A message box 
 To make the message box clickable, we need to change out of "**Edit Mode**" and into "**Play Mode**".  
 You can do this by clicking on the "**Edit Mode**" item in the "**Edit**" menu, or by using the shortcut **Ctrl+E**. (**Cmd+E** on macOS)
 
+When you enter into "**Play Mode**", you will see that the pointing finger cursor changes into an arrow cursor.  
+This change signifies that the mouse will interact differently with the elements within the patch.
 
 <img src="interface8.png" width="500"/>
 
-
+Now, if you click on the **[Hello World(** message box, you will see the message printed to the console window like this:
 
 <img src="interface9.png" width="500"/>
 
