@@ -63,9 +63,13 @@ You will see a patch window that looks like this:
 
 <img src="patchwindow.png" alt="patchwindow" width="500"/>
 
-
+Under the "Put" menu in the patch window, select "Object" to place an object in your patch.
 
 <img src="putmenu.png" alt="putmenu" width="200"/>
+
+Click on the patch to drop the object in its place. Type "print" inside this object and click again outside the box, you will create the [print] object.
+
+[![print](print.svg)](#the-interface)
 
 
 ## Building a Simple Sequencer
