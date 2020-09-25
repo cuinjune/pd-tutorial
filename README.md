@@ -47,9 +47,9 @@ sudo apt-get install -y puredata
 puredata
 ```
 
-
-
 ## The Interface
+
+
 
 ## Building a Simple Sequencer
 
