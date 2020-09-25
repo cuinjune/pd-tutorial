@@ -24,6 +24,7 @@ Here are some projects that used Pure Data.
 * [Sequencer](https://youtu.be/9Nz0bxwoqQE)
 * [Reactable](https://youtu.be/0h-RhyopUmc)
 * [Music Visualization](https://youtu.be/U1k44Tr0pu4)
+* [EA Spore](https://youtu.be/dBK-erAJdWs)
 
 ## Installation
 
