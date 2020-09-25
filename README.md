@@ -121,7 +121,7 @@ To get help associated with a specific object, you can right-click it then selec
 
 <img src="interface13.png" width="500"/>
 
-You will see a help patch that explains what the object does and also show several examples of its use.
+You will see a help patch that explains what the object does and also shows several examples of its use.
 
 <img src="interface14.png" width="500"/>
 
