@@ -57,7 +57,7 @@ If you open Pure Data, you will see a console window that looks like this:
 
 The console window is mainly used to see information about the patch you are working on, as well as for debugging (correcting errors in your patch). So keep this window in a place where you can find it on your screen.
 
-Under the "File" menu in the console window, select "**New**" to create a patch:
+Under the "**File**" menu in the console window, select "**New**" to create a patch:
 
 <img src="interface2.png" width="200"/>
 
@@ -65,7 +65,7 @@ You will see a patch window that looks like this:
 
 <img src="interface3.png" width="500"/>
 
-Under the "Put" menu in the patch window, select "**Object**" to place an object box in your patch.
+Under the "**Put**" menu in the patch window, select "**Object**" to place an object box in your patch.
 
 <img src="interface4.png" width="200"/>
 
@@ -73,7 +73,7 @@ Click on the patch to drop the object box in its place. Type "print" inside the 
 
 <img src="interface5.png" width="500"/>
 
-Under the "Put" menu in the patch window, select "**Message**" and type "Hello World" inside the box.
+Under the "**Put**" menu in the patch window, select "**Message**" and type "Hello World" inside the box.
 
 <img src="interface6.png" width="500"/>
 
