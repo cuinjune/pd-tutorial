@@ -84,7 +84,7 @@ Click and drag the outlet of **[Hello World(** to the inlet of **[print]** to ma
 
 <img src="interface7.png" width="500"/>
 
-There are types of objects that you can interact with your mouse and a message box is one of them.  
+There are types of objects that you can interact with your mouse. A message box is one of them.  
 To make the message box clickable, we need to change out of "**Edit Mode**" and into "**Play Mode**".  
 You can do this by clicking on the "**Edit Mode**" item in the "**Edit**" menu, or by using the shortcut **Ctrl+E**. (**Cmd+E** on macOS)
 
