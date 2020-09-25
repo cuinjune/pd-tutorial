@@ -15,25 +15,25 @@ After this tutorial, you will be able to understand the basics of Pure Data and 
 
 Pure Data (or Pd) is a real-time visual programming language designed for musicians, visual artists and performers to create software without writing lines of code. Pure Data is commonly used for live music performance, VJing, sound design, 2D/3D graphics processing, composition, audio analysis, interfacing with sensors, and cross-platform app and web development. Pure Data runs on macOS, Windows, Linux, Raspberry Pi, iOS, Android, and web browsers.
 
-<img src="introduction1.png" alt="introduction1" width="400"/>
+<img src="introduction1.png" width="400"/>
 
 Programming with Pure Data is a unique interaction that is much closer to the experience of manipulating things in the physical world. The most basic unit of functionality is a box, and the program is formed by connecting these boxes together into diagrams that both represent the flow of data while actually performing the operations mapped out in the diagram. Because the programming is done visually, many artists find it a more intuitive tool than traditional text-oriented programming languages.
 
-<img src="introduction2.png" alt="introduction2" width="200"/>
+<img src="introduction2.png" width="200"/>
 
 The real advantage of Pure Data is that it works in "real time". This means that changes can be made in the program even as it is running, and the user can see or hear the results immediately. This makes it a powerful tool for artists who would like to make sound or video in a live performance situation.
 
-<img src="introduction3.png" alt="introduction3" width="400"/>
+<img src="introduction3.png" width="400"/>
 
 Pure Data has been used as the basis of a number of projects, as a prototyping language and a sound engine.
 
-<img src="projects.png" alt="projects" width="400"/>
+<img src="projects.png" width="400"/>
 
 
 ## Installation
 Visit https://puredata.info/downloads/pure-data and click one of the download links depending on your platform.
 
-<img src="installation.png" alt="installation" width="400"/>
+<img src="installation.png" width="400"/>
 
 If you are using **Windows**, open the downloaded installer file and follow the default instructions.
 
@@ -51,25 +51,27 @@ puredata
 
 If you open Pure Data, you will see a console window that looks like this:
 
-<img src="consolewindow.png" alt="consolewindow" width="500"/>
+<img src="consolewindow.png" width="500"/>
 
 The console window is mainly used to see information about the patch you are working on, as well as for debugging (correcting errors in your patch). So keep this window in a place where you can find it on your screen.
 
 Under the "File" menu in the console window, select "New" to create a patch:
 
-<img src="filemenu.png" alt="filemenu" width="200"/>
+<img src="interface1.png" width="200"/>
 
 You will see a patch window that looks like this:
 
-<img src="patchwindow.png" alt="patchwindow" width="500"/>
+<img src="interface2.png" width="500"/>
 
 Under the "Put" menu in the patch window, select "Object" to place an object in your patch.
 
-<img src="putmenu.png" alt="putmenu" width="200"/>
+<img src="interface3.png" width="200"/>
 
 Click on the patch to drop the object in its place. Type "print" inside this object and click again outside the box, you will create the [print] object.
 
-<img src="print.png" alt="print" width="500"/>
+<img src="interface4.png" width="500"/>
+
+<img src="interface5.png" width="500"/>
 
 
 ## Building a Simple Sequencer
