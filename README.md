@@ -32,12 +32,12 @@ Visit https://puredata.info/downloads/pure-data and click one of the download li
 
 <img src="installation.png" alt="installation" width="500"/>
 
-If you are using Windows, open the downloaded installer file and follow the default instructions.
+If you are using **Windows**, open the downloaded installer file and follow the default instructions.
 
-If you are using macOS, unzip the downloaded file, and move it to the Applications folder.  
+If you are using **macOS**, unzip the downloaded file, and move it to the Applications folder.  
 In case the app doesn't open because of the verification issue, open the app while holding down the Control key.
 
-If you are using Linux, run the following terminal commands to install and run Pure Data:
+If you are using **Linux**, run the following terminal commands to install and run Pure Data:
 ```
 sudo apt-get update -y
 sudo apt-get install -y puredata
