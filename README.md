@@ -11,20 +11,21 @@ After this tutorial, you will be able to understand the basics of Pure Data and 
 - [Building a Simple Sequencer](#building-a-simple-sequencer)
 
 ## Introduction
-[![introduction1](introduction1.png)](#introduction)
 
 Pure Data (or Pd) is a real-time visual programming language designed for musicians, visual artists and performers to create software without writing lines of code. Pure Data is commonly used for live music performance, VJing, sound design, 2D/3D graphics processing, composition, audio analysis, interfacing with sensors, and cross-platform app and web development. Pure Data runs on macOS, Windows, Linux, Raspberry Pi, iOS, Android, and web browsers.
 
-[![introduction2](introduction2.png)](#introduction)
+<img src="introduction1.png" alt="introduction1" width="500"/>
 
 Programming with Pure Data is a unique interaction that is much closer to the experience of manipulating things in the physical world. The most basic unit of functionality is a box, and the program is formed by connecting these boxes together into diagrams that both represent the flow of data while actually performing the operations mapped out in the diagram. Because the programming is done visually, many artists find it a more intuitive tool than traditional text-oriented programming languages.
+
+<img src="introduction2.png" alt="introduction2" width="500"/>
 
 The real advantage of Pure Data is that it works in "real time". This means that changes can be made in the program even as it is running, and the user can see or hear the results immediately. This makes it a powerful tool for artists who would like to make sound or video in a live performance situation.
 
 ## Installation
 Visit https://puredata.info/downloads/pure-data and click one of the links depending on your platform to download Pure Data.
 
-[![installation](installation.png)](#installation)
+<img src="installation.png" alt="installation" width="500"/>
 
 If you are using Windows, open the downloaded installer file and follow the default instructions.
 
