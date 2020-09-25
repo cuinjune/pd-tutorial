@@ -78,10 +78,9 @@ Under the "Put" menu in the patch window, select "**Message**" and type "Hello W
 <img src="interface6.png" width="500"/>
 
 You should notice that both the object and the message boxes have small rectangles at the corners.   
-If these are at the top of the object, they are called "**inlets**", and at the bottom they are called "**outlets**". 
-
+If these are at the top of the object, they are called "**inlets**", and at the bottom they are called "**outlets**".  
 The inlets and outlets are used to receive and send data between objects while they are connected.  
-To make a connection between the two objects, click and drag the outlet of [Hello World( to the inlet of [print].
+Click and drag the outlet of [Hello World( to the inlet of [print] to make a connection like this:
 
 <img src="interface7.png" width="500"/>
 
