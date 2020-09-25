@@ -9,6 +9,7 @@ After this tutorial, you will be able to understand the basics of Pure Data and 
 - [Installation](#installation)
 - [The Interface](#the-interface)
 - [Building a Simple Sequencer](#building-a-simple-sequencer)
+- [More Tutorials](#more-tutorials)
 
 ## Introduction
 
@@ -28,16 +29,16 @@ Pure Data has been used as the basis of a number of projects, as a prototyping l
 
 
 ## Installation
-Visit https://puredata.info/downloads/pure-data and click one of the links depending on your platform to download Pure Data.
+Visit https://puredata.info/downloads/pure-data and click one of the download links depending on your platform.
 
 <img src="installation.png" alt="installation" width="500"/>
 
-If you are using Windows, open the downloaded installer file and follow the default instructions.
+If you are using **Windows**, open the downloaded installer file and follow the default instructions.
 
-If you are using macOS, unzip the downloaded file, and move it to the Applications folder.  
+If you are using **macOS**, unzip the downloaded file, and move it to the Applications folder.  
 In case the app doesn't open because of the verification issue, open the app while holding down the Control key.
 
-If you are using Linux, run the following terminal commands to install and run Pure Data:
+If you are using **Linux**, run the following terminal commands to install and run Pure Data:
 ```
 sudo apt-get update -y
 sudo apt-get install -y puredata
@@ -50,10 +51,8 @@ puredata
 
 ## Building a Simple Sequencer
 
-
-
 [![example](Untitled.svg)](#pd-tutorial)
 
+## More Tutorials
 
 
-See the image above!
