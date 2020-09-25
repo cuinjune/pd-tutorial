@@ -49,6 +49,13 @@ puredata
 
 ## The Interface
 
+<img src="consolewindow.png" alt="consolewindow" width="400"/>
+
+<img src="filemenu.png" alt="filemenu" width="200"/>
+
+<img src="patchwindow.png" alt="patchwindow" width="400"/>
+
+<img src="putmenu.png" alt="putmenu" width="200"/>
 
 
 ## Building a Simple Sequencer
