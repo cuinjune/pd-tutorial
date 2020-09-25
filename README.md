@@ -28,7 +28,7 @@ Pure Data has been used as the basis of a number of projects, as a prototyping l
 
 
 ## Installation
-Visit https://puredata.info/downloads/pure-data and click one of the links depending on your platform to download Pure Data.
+Visit https://puredata.info/downloads/pure-data and click one of the links depending on your platform.
 
 <img src="installation.png" alt="installation" width="500"/>
 
