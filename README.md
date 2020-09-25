@@ -9,7 +9,7 @@ After this tutorial, you will be able to understand the basics of Pure Data and 
 - [Installation](#installation)
 - [The Interface](#the-interface)
 - [Building a Simple Sequencer](#building-a-simple-sequencer)
-- [More Tutorials](#more-tutorials)
+- [More Resources](#more-resources)
 
 ## Introduction
 
@@ -40,7 +40,7 @@ If you are using **Windows**, open the downloaded installer file and follow the 
 If you are using **macOS**, unzip the downloaded file and move it to the Applications folder.  
 In case the app doesn't open because of the verification issue, open the app while holding down the Control key.
 
-If you are using **Linux**, run the following terminal commands to install and run Pure Data:
+If you are using **Linux**, run the following terminal commands to install and open Pure Data:
 ```
 sudo apt-get update -y
 sudo apt-get install -y puredata
@@ -49,11 +49,21 @@ puredata
 
 ## The Interface
 
+If you open Pure Data, you will see a console window that looks like this:
+
 <img src="consolewindow.png" alt="consolewindow" width="500"/>
+
+The console window is mainly used to see information about the patch you are working on, as well as for debugging (correcting errors in your patch). So keep this window in a place where you can find it on your screen.
+
+Under the "File" menu in the console window, select "New" to create a patch:
 
 <img src="filemenu.png" alt="filemenu" width="200"/>
 
+You will see a patch window that looks like this:
+
 <img src="patchwindow.png" alt="patchwindow" width="500"/>
+
+
 
 <img src="putmenu.png" alt="putmenu" width="200"/>
 
@@ -62,6 +72,6 @@ puredata
 
 [![example](Untitled.svg)](#pd-tutorial)
 
-## More Tutorials
+## More Resources
 
 
