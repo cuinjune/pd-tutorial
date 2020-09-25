@@ -73,7 +73,7 @@ Click on the patch to drop the object box in its place. Type "print" inside the 
 
 <img src="interface5.png" width="500"/>
 
-Under the "Put" menu in the patch window, select "**Message**" and type "Hello World!" inside the box.
+Under the "Put" menu in the patch window, select "**Message**" and type "Hello World" inside the box.
 
 <img src="interface6.png" width="500"/>
 
@@ -81,7 +81,7 @@ You should notice that both the object and the message boxes have small rectangl
 If these are at the top of the object, they are called "**inlets**", and at the bottom they are called "**outlets**". 
 
 The inlets and outlets are used to receive and send data between objects while they are connected.  
-To make a connection between the two objects, click and drag the outlet of [Hello World!( to the inlet of [print].
+To make a connection between the two objects, click and drag the outlet of [Hello World( to the inlet of [print].
 
 <img src="interface7.png" width="500"/>
 
