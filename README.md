@@ -59,7 +59,7 @@ The console window is mainly used to see information about the patch you are wor
 
 Under the "**File**" menu in the console window, select "**New**" to create a patch:
 
-<img src="interface2.png" width="200"/>
+<img src="interface2.png" width="165"/>
 
 You will see a patch window that looks like this:
 
@@ -67,7 +67,7 @@ You will see a patch window that looks like this:
 
 Under the "**Put**" menu in the patch window, select "**Object**" to place an object box in your patch.
 
-<img src="interface4.png" width="200"/>
+<img src="interface4.png" width="150"/>
 
 Click on the patch to drop the object box in its place. Type "print" inside the box and click again outside the box, you will create the **[print]** object.
 
