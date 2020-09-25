@@ -80,7 +80,7 @@ Under the "**Put**" menu in the patch window, select "**Message**" and type "Hel
 You should notice that both the object and the message boxes have small rectangles at the corners.   
 If these are at the top of the object, they are called "**inlets**", and at the bottom they are called "**outlets**".  
 The inlets and outlets are used to receive and send data between objects while they are connected.  
-Click and drag the outlet of **[Hello World(** to the inlet of **[print]** to make a connection like this:
+Click the outlet of **[Hello World(**, then drag the cable to the inlet of **[print]** to make a connection like this:
 
 <img src="interface7.png" width="500"/>
 
@@ -96,6 +96,23 @@ This change signifies that the mouse will interact differently with the elements
 Now, if you click on the **[Hello World(** message box, you will see the message printed to the console window like this:
 
 <img src="interface9.png" width="500"/>
+
+In "**Edit Mode**", click on a cable to select it, then hit the **Backspace** key to delete the cable.
+
+<img src="interface7.png" width="500"/>
+
+Now, if you click on the **[Hello World(** message box again in "**Play Mode**", you will no longer see the message printed to the console window since they are disconnected.
+
+<img src="interface9.png" width="500"/>
+
+In "**Edit Mode**", clicking on the patch and dragging will select multiple objects to move, copy, duplicate, or delete.  
+
+<img src="interface10.png" width="500"/>
+
+You can edit the selected objects by clicking on one of the items in the "**Edit**" menu or by using the shortcuts.
+
+<img src="interface11.png" width="150"/>
+
 
 
 ## Building a Simple Sequencer
