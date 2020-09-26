@@ -99,7 +99,7 @@ Now, if you click on the **[Hello World(** message box, you will see the message
 
 In "**Edit Mode**", click on a cable to select it, then hit the **Backspace** key to delete the cable.
 
-<img src="interface7.png" width="500"/>
+<img src="interface6.png" width="500"/>
 
 Now, if you click on the **[Hello World(** message box again in "**Play Mode**", you will no longer see the message printed to the console window since they are disconnected.
 
