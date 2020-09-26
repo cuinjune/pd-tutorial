@@ -113,7 +113,9 @@ You can edit the selected objects by clicking on one of the items in the "**Edit
 
 <img src="interface11.png" width="190"/>
 
-Try duplicating and deleting the selected objects using the shortcuts.
+Try duplicating and deleting the selected objects using the shortcuts. 
+* Duplicate: **Ctrl+D** (**Cmd+D** on macOS)
+* Delete: **Backspace**
 
 <img src="interface12.png" width="500"/>
 
