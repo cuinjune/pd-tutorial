@@ -7,11 +7,11 @@ This is a short step-by-step Pure Data tutorial for complete beginners.
 After this tutorial, you will be able to understand the basics of Pure Data and create a simple musical instrument using it.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [The Interface](#the-interface)
-- [Building a Simple Sequencer](#building-a-simple-sequencer)
-- [More Resources](#more-resources)
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [The Interface](#the-interface)
+* [Building a Simple Sequencer](#building-a-simple-sequencer)
+* [More Resources](#more-resources)
 
 ## Introduction
 
@@ -254,4 +254,29 @@ You will discover these as you delve deeper into the world of Pure Data.
 
 ## More Resources
 
+* Video tutorials:
+  * [Tutorials by Dr. Rafael Hernandez](https://www.youtube.com/playlist?list=PL12DC9A161D8DC5DC)
+  * [Learning Synthesis with Pure Data Series](https://youtu.be/Fx5nTjUrK-g)
+  * [Pure Data Tutorials - Rich Synthesis](https://www.youtube.com/playlist?list=PLqJgTfn3kSMW3AAAl2liJRKd-7DhZwLlq)
+  * [Pure Data GEM Tutorials](https://www.youtube.com/playlist?list=PLUnWNyI8WKO2_LF59jbOC3wFg5AYaY5Sf)
+  * [Miller Puckette MUS171 Videos](http://pd-la.info/pd-media/miller-puckette-mus171-videos/)
+
+* Text tutorials:
+  * [Pure Data Floss Manuals](http://write.flossmanuals.net/pure-data/introduction2/)
+  * [Programming Electronic Music in Pd](http://www.pd-tutorial.com/english/index.html)
+  * [Practical synthetic sound design](https://www.moz.ac.at/sem/lehre/lib/pd-sounddesign/index.html)
+  * [PureData Algorithmic Composition Tutorials](http://www.algorithmiccomposer.com/)
+  
+* Books:
+  * [The Theory and Technique of Electronic Music](http://msp.ucsd.edu/techniques/latest/book.pdf)
+  * [Programming Sound with Pure Data](https://www.amazon.com/Programming-Sound-Pure-Data-Dynamic/dp/1937785661)
+  * [Designing Sound](https://www.amazon.com/Designing-Sound-Andy-Farnell/dp/0262014416)
+  * [Making Musical Apps](https://www.amazon.com/Making-Musical-Apps-Real-time-synthesis/dp/1449314902)
+
+* Communities:
+  * [Pure Data Forum](https://forum.pdpatchrepo.info/)
+  * [Pure Data Facebook Group](https://www.facebook.com/groups/puredata/)
+  * [Pure Data Reddit Community](https://www.reddit.com/r/puredata/)
+  * [Discord Pure Data Chat](https://discord.com/invite/AZ43djV)
+  
 
