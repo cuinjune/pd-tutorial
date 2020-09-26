@@ -129,6 +129,16 @@ You will see a help patch that explains what the object does and also shows seve
 
 ## Building a Simple Sequencer
 
+Now let's create a simple step sequencer. A step sequencer is a tool that allows us to store musical data (e.g. note, velocity) into individual steps to create musical patterns. In this tutorial, we are going to create a simple 4-step sequencer that stores 4 note values that are played in a loop. 
+
+<img src="sequencer1.jpg" width="500"/>
+
+
+<img src="sequencer2.png" width="500"/>
+
+<img src="sequencer3.png" width="500"/>
+
+
 [![example](Untitled.svg)](#pd-tutorial)
 
 ## More Resources
