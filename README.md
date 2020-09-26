@@ -254,6 +254,8 @@ You will discover these as you delve deeper into the world of Pure Data.
 
 ## More Resources
 
+If you are interested in learning more about Pure Data, there are plenty of resources and communities to help you.
+
 * Video tutorials:
   * [Tutorials by Dr. Rafael Hernandez](https://www.youtube.com/playlist?list=PL12DC9A161D8DC5DC)
   * [Learning Synthesis with Pure Data Series](https://youtu.be/Fx5nTjUrK-g)
