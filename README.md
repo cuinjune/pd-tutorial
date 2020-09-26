@@ -160,7 +160,7 @@ Create a **[+ 1]** object above the upper number box and make connections like t
 <img src="sequencer7.png" width="500"/>
 
 In "**Play Mode**", if you click on the bang button, the output number will be increased by 1.  
-This is because the output number + 1 is stored in the **[float]** object whenever it outputs a value.  
+This is because the **output number + 1** is stored in the **[float]** object whenever it outputs a value.  
 Note: The number boxes are being used in this example as a visual aid and it will work identically without going through them.
 
 <img src="sequencer8.png" width="500"/>
