@@ -239,7 +239,7 @@ You can change the slider's output range by right-clicking on a slider and selec
 
 <img src="sequencer23.png" width="500"/>
 
-Change each slider's output range to between 36 and 84. (C2 ~ 	C6) 
+Change each slider's output range to between 36 and 84. (C2 ~ 	C6)  
 You can also change other properties such as size and colors.
 
 <img src="sequencer24.png" width="500"/>
