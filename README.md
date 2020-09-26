@@ -135,375 +135,116 @@ Now let's create a simple step sequencer. A step sequencer is a tool that allows
 
 In an empty patch window, under the "**Put**" menu, select "**Bang**" to create a bang button.
 
-[bng]
+<img src="sequencer2.png" width="500"/>
 
 Create an object box using **Ctrl+1** (**Cmd+1** on macOS) and type "**float**" inside it to create a **[float]** object.
 
-[bng]
-
-[float]
+<img src="sequencer3.png" width="500"/>
 
 Under the "**Put**" menu, select "**Number**" to create a number box, duplicate it and make connections like the following:
 
-[bng] [nbx:0]
-|     |
-[float]
-|
-[nbx:0]
+<img src="sequencer4.png" width="500"/>
 
 In "**Play Mode**", try dragging the upper number box up or down to change its value.
 
-[bng] [nbx:34](p)
-|     |
-[float]
-|
-[nbx]
+<img src="sequencer5.png" width="500"/>
 
 If you click on the bang button, the **[float]** object will output its stored value.
 
-[bng](p) [nbx:34] 
-|        |
-[float   ]
-|
-[nbx:34]
+<img src="sequencer6.png" width="500"/>
 
-As you can see, the **[float]** object stores a number through its second inlet, and outputs the value when it receives a message named "**bang**" through its first inlet. "**bang**" is a special message, which many objects interpret as "do an action right now!". The bang button is identical to a **[bang(** message box.
+As you can see, the **[float]** object stores a number through its right inlet, and outputs the value when it receives a message named "**bang**" through its left inlet. "**bang**" is a special message, which many objects interpret as "do an action right now!".
 
 Create a **[+ 1]** object above the upper number box and make connections like the following:
 
-
-         [+ 1]
-         |
-[bng](x) [nbx:34] 
-|        |
-[float   ]
-|
-[nbx:34]
+<img src="sequencer7.png" width="500"/>
 
 In "**Play Mode**", if you click on the bang button, the output number will be increased by 1.  
 This is because the output number + 1 is stored in the **[float]** object whenever it outputs a value.  
 Note: The number boxes are being used in this example as a visual aid and it will work identically without going through them.
 
-         [+ 1]
-         |
-[bng](p) [nbx:37] 
-|        |
-[float   ]
-|
-[nbx:36]
-
+<img src="sequencer8.png" width="500"/>
 
 Create a **[mod 4]** object which outputs the remainder when the input number is divided by 4.  
 And then create another number box below it and make connections like the following:
 
-         [+ 1]
-         |
-[bng](x) [nbx:37] 
-|        |
-[float   ]
-|
-[nbx:36]
-|
-[mod 4]
-|
-[nbx:0]
+<img src="sequencer9.png" width="500"/>
 
 In "**Play Mode**", if you click on the bang button, the output number will be wrapped between 0 and 3.
 
-         [+ 1]
-         |
-[bng](p) [nbx:44] 
-|        |
-[float   ]
-|
-[nbx:43]
-|
-[mod 4]
-|
-[nbx:3]
+<img src="sequencer10.png" width="500"/>
 
 Create a **[select 0 1 2 3]** object which receives a number and distributes the "**bang**" messages to the corresponding outlets.  
+Place it at the bottom and make a connection like the following:
 
-         [+ 1]
-         |
-[bng](x) [nbx:44] 
-|        |
-[float   ]
-|
-[nbx:43]
-|
-[mod 4]
-|
-[nbx:3]
-|
-[select 0 1 2 3]
+<img src="sequencer11.png" width="500"/>
 
-Create 4 bang buttons that will be used as a visual aid and make connections like the following:
+Create four bang buttons that will be used as a visual aid.  
+Place them at the bottom and make connections like the following:
 
-         [+ 1]
-         |
-[bng](x) [nbx:44] 
-|        |
-[float   ]
-|
-[nbx:43]
-|
-[mod 4]
-|
-[nbx:3]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng].[bng][bng][bng]
-
+<img src="sequencer12.png" width="500"/>
 
 In "**Play Mode**", if you click on the bang button at the top, the below 4 bang buttons will flash according to the output number.
 
-         [+ 1]
-         |
-[bng](p) [nbx:44] 
-|        |
-[float   ]
-|
-[nbx:43]
-|
-[mod 4]
-|
-[nbx:3]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng].[bng][bng][bng](p)
+<img src="sequencer13.png" width="500"/>
 
 Instead of you clicking the bang button to output a "**bang**" message, we can automate this using a **[metro]** object.  
 A **[metro]** object outputs "**bang**" messages periodically given the time interval between them.  
 Under the "**Put**" menu, select "**Toggle**" to create a toggle button and also create a **[metro 300]** object below it.  
 Place them at the top and make connections like the following:
 
-[tgl](x)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](x) [nbx:44] 
-|        |
-[float   ]
-|
-[nbx:43]
-|
-[mod 4]
-|
-[nbx:3]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng].[bng][bng][bng]
-
+<img src="sequencer14.png" width="500"/>
 
 In "**Play Mode**", if you click on the toggle button to enable it, the **[metro 300]** object will start and output "**bang**" messages at 300-millisecond intervals.  
 
-[tgl](p)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](p) [nbx:65] 
-|        |
-[float   ]
-|
-[nbx:64]
-|
-[mod 4]
-|
-[nbx:3]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng](p) [bng][bng][bng]
-
+<img src="sequencer15.png" width="500"/>
 
 You can stop the **[metro 300]** object by clicking on the toggle button again to disable it.  
 Now, create and connect the four **[float]** objects to each bang button at the bottom like the following:
 
-[tgl](x)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](x) [nbx:83] 
-|        |
-[float   ]
-|
-[nbx:82]
-|
-[mod 4]
-|
-[nbx:2]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng] [bng][bng][bng]
-|.    |.   |.   |
-|     |    |.   |
-|.    |.   |.   |
-[float][float][float][float]
+<img src="sequencer16.png" width="500"/>
 
 Under the "**Put**" menu, select "**Vslider**" to create a vertical slider.  
 Create four vertical sliders and four number boxes and make connections like the following:
 
-
-[tgl](x)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](x) [nbx:83] 
-|        |
-[float   ]
-|
-[nbx:82]
-|
-[mod 4]
-|
-[nbx:2]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng] [bng][bng][bng]. [vsl][vsl][vsl][vsl]
-|.    |.   |.   |.     [nbx][nbx][nbx][nbx]
-|     |    |.   |
-|.    |.   |.   |
-[float][float][float][float]
-
+<img src="sequencer17.png" width="500"/>
 
 Create a number box at the bottom and make connections like the following:
 
-[tgl](x)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](x) [nbx:83] 
-|        |
-[float   ]
-|
-[nbx:82]
-|
-[mod 4]
-|
-[nbx:2]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng] [bng][bng][bng]. [vsl][vsl][vsl][vsl]
-|.    |.   |.   |.     [nbx][nbx][nbx][nbx]
-|     |    |.   |
-|.    |.   |.   |
-[float][float][float][float]
-||||
-[nbx:0]
+<img src="sequencer18.png" width="500"/>
 
 In "**Play Mode**", enable the toggle button and try changing values of sliders by dragging them up or down.  
 You will see the bottom number box outputs the slider values according to the step.
 
-[tgl](p)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](p) [nbx:106] 
-|        |
-[float   ]
-|
-[nbx:105]
-|
-[mod 4]
-|
-[nbx:1]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng] [bng](p) [bng][bng]. [vsl](72)[vsl](50)[vsl](45)[vsl](67)
-|.    |.   |.   |.         [nbx](72)[nbx](50)[nbx](45)[nbx](67)
-|     |    |.   |
-|.    |.   |.   |
-[float][float][float][float]
-||||
-[nbx:50]
-
+<img src="sequencer19.png" width="500"/>
 
 This output number will be used as a MIDI note number in our sequencer to change the pitch (or the frequency of a sound wave).  
 To do this, create a **[mtof]** (midi to frequency) object at the bottom which converts the incoming midi numbers to frequency.  
 Also, create an **[osc~]** (oscillator) object which outputs a pure sine wave audio, given the input frequency.  
 Make connections like the following:
 
-[tgl](p)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](p) [nbx:116] 
-|        |
-[float   ]
-|
-[nbx:115]
-|
-[mod 4]
-|
-[nbx:3]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng] [bng] [bng][bng](p)  [vsl](72)[vsl](50)[vsl](45)[vsl](67)
-|.    |.   |.   |.         [nbx](72)[nbx](50)[nbx](45)[nbx](67)
-|     |    |.   |
-|.    |.   |.   |
-[float][float][float][float]
-||||
-[nbx:67]
-|
-[mtof]
-|
-[osc~]
-
+<img src="sequencer20.png" width="500"/>
 
 Create a **[dac~]** (digital-to-analog converter) object at the bottom and make connections like the following:
 
-[tgl](p)
-|
-[metro 300]    [+ 1]
-|        |
-[bng](p) [nbx:127] 
-|        |
-[float   ]
-|
-[nbx:126]
-|
-[mod 4]
-|
-[nbx:2]
-|
-[select 0 1 2 3]
-|     |.   |.   |
-[bng] [bng] [bng][bng](p)  [vsl](72)[vsl](50)[vsl](45)[vsl](67)
-|.    |.   |.   |.         [nbx](72)[nbx](50)[nbx](45)[nbx](67)
-|     |    |.   |
-|.    |.   |.   |
-[float][float][float][float]
-||||
-[nbx:45]
-|
-[mtof]
-|
-[osc~]
-||
-[dac~]
+<img src="sequencer21.png" width="500"/>
 
 In the console window, click on the DSP toggle button to turn the audio on.  
 
-(Console Window with DSP on image)
+<img src="sequencer22.png" width="500"/>
 
 Try moving the sliders to create musical patterns.  
 You can change the slider's output range by right-clicking on a slider and selecting **Properties** from the drop-down menu.
 
-(right-click on Vslider Properties image)
+<img src="sequencer23.png" width="500"/>
 
 You can also change other properties such as size and colors.
 
-(Vslider Properties window image)
+<img src="sequencer24.png" width="500"/>
+
+Under the "**File**" menu in the patch window, select "**Save**" to save the patch:
+
+<img src="sequencer25.png" width="165"/>
 
 Congratulations! You have now created a functioning sequencer in Pure Data.  
 We have chosen the above methods to build a sequencer however there are many other ways to build one, including using a table.   
