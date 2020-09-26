@@ -244,7 +244,7 @@ You can also change other properties such as size and colors.
 
 <img src="images/sequencer24.png" width="500"/>
 
-Under the "**File**" menu in the patch window, select "**Save**" to save the patch:
+Under the "**File**" menu in the patch window, select "**Save**" to save the patch.
 
 <img src="images/sequencer25.png" width="165"/>
 
