@@ -229,7 +229,7 @@ Create a **[dac~]** (digital-to-analog converter) object at the bottom and make 
 
 <img src="sequencer21.png" width="500"/>
 
-**Warning: Be sure to set the audio volume on your computer low since it can be pretty loud.**
+**Warning: Be sure to set the audio volume on your computer fairly low since it can be pretty loud.**  
 In the console window, click on the DSP toggle button to turn the audio on.  
 
 <img src="sequencer22.png" width="500"/>
