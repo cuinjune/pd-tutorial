@@ -31,6 +31,15 @@ Pure Data has been used as the basis of a number of projects, as a prototyping l
 
 <img src="images/introduction4.png" width="400"/>
 
+Here are some projects that used Pure Data
+
+* [Algorithmic Music](https://youtu.be/I9_3CfRm8GE)
+* [Sequencer](https://youtu.be/9Nz0bxwoqQE)
+* [Music Visualisation](https://youtu.be/U1k44Tr0pu4)
+* [Guitar Pedal](https://youtu.be/DJCoOr4uHD4)
+* [Organelle](https://youtu.be/WcCwB_Xb_L4)
+* [Reactable](https://youtu.be/0h-RhyopUmc)
+* [EA Spore](https://youtu.be/dBK-erAJdWs)
 
 ## Installation
 Visit https://puredata.info/downloads/pure-data and click one of the download links depending on your platform.
